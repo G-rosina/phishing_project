@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+fastapi
+uvicorn
+streamlit
+=======
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+fastapi
+uvicorn
+streamlit
+>>>>>>> 13d69a23734bbe47eb1db6598bc86b5975a7a2ec

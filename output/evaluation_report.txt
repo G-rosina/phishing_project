@@ -1,0 +1,118 @@
+PHISHING DETECTION - MODEL EVALUATION REPORT
+============================================================
+
+Model: Logistic Regression
+----------------------------------------
+  Accuracy:  0.9666
+  Precision: 0.9673
+  Recall:    0.9666
+  F1-Score:  0.9665
+
+              precision    recall  f1-score   support
+
+  legitimate       0.95      0.99      0.97       150
+    phishing       0.99      0.95      0.97       149
+
+    accuracy                           0.97       299
+   macro avg       0.97      0.97      0.97       299
+weighted avg       0.97      0.97      0.97       299
+
+
+Model: Naive Bayes
+----------------------------------------
+  Accuracy:  0.9599
+  Precision: 0.9606
+  Recall:    0.9599
+  F1-Score:  0.9598
+
+              precision    recall  f1-score   support
+
+  legitimate       0.94      0.98      0.96       150
+    phishing       0.98      0.94      0.96       149
+
+    accuracy                           0.96       299
+   macro avg       0.96      0.96      0.96       299
+weighted avg       0.96      0.96      0.96       299
+
+
+Model: Neural Network Mlp
+----------------------------------------
+  Accuracy:  0.9532
+  Precision: 0.9539
+  Recall:    0.9532
+  F1-Score:  0.9532
+
+              precision    recall  f1-score   support
+
+  legitimate       0.94      0.97      0.95       150
+    phishing       0.97      0.93      0.95       149
+
+    accuracy                           0.95       299
+   macro avg       0.95      0.95      0.95       299
+weighted avg       0.95      0.95      0.95       299
+
+
+Model: Random Forest
+----------------------------------------
+  Accuracy:  0.9431
+  Precision: 0.9465
+  Recall:    0.9431
+  F1-Score:  0.9430
+
+              precision    recall  f1-score   support
+
+  legitimate       0.91      0.99      0.95       150
+    phishing       0.99      0.90      0.94       149
+
+    accuracy                           0.94       299
+   macro avg       0.95      0.94      0.94       299
+weighted avg       0.95      0.94      0.94       299
+
+
+Model: Svm Linearsvc
+----------------------------------------
+  Accuracy:  0.9699
+  Precision: 0.9704
+  Recall:    0.9699
+  F1-Score:  0.9699
+
+              precision    recall  f1-score   support
+
+  legitimate       0.95      0.99      0.97       150
+    phishing       0.99      0.95      0.97       149
+
+    accuracy                           0.97       299
+   macro avg       0.97      0.97      0.97       299
+weighted avg       0.97      0.97      0.97       299
+
+
+
+KAGGLE NUMERIC FEATURE MODELS
+============================================================
+
+Model: Kaggle  Logistic Regression
+----------------------------------------
+  Accuracy:  0.9868
+  Precision: 0.9869
+  Recall:    0.9868
+  F1-Score:  0.9802
+
+Model: Kaggle  Neural Network
+----------------------------------------
+  Accuracy:  0.9871
+  Precision: 0.9868
+  Recall:    0.9871
+  F1-Score:  0.9809
+
+Model: Kaggle  Random Forest
+----------------------------------------
+  Accuracy:  0.9895
+  Precision: 0.9880
+  Recall:    0.9895
+  F1-Score:  0.9867
+
+============================================================
+OVERALL BEST MODEL: Kaggle  Random Forest
+  F1-Score: 0.9867
+  Accuracy: 0.9895
+============================================================

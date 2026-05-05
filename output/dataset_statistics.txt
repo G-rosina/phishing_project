@@ -1,0 +1,12 @@
+DATASET STATISTICS
+============================================================
+
+Creation date: 2026-05-01 22:14:17.266121
+
+Total emails: 1494
+Phishing: 747
+Legitimate: 747
+
+Average text length: 49.3 words
+Min text length: 1 words
+Max text length: 1424 words
